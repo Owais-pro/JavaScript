@@ -1,4 +1,5 @@
-      //Task#1
+                                             //Assignment#5-7
+     //Task#1
 //var number1 = +prompt("Enter First Number");
 //var number2 = +prompt("Enter Second Number");
 //var sum = number1 + number2;
