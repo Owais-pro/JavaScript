@@ -69,3 +69,74 @@ var obtainMarks = +prompt("Enter Total Obtained Marks");
 var totalMarks = +prompt("Enter Total Marks");
 var percentage = obtainMarks / totalMarks*100;
 document.write("Your Percentage Is "+percentage+"%");     
+
+        //Task#10
+var dollar = 10;
+var riyal = 25;
+var dollarRate = 104;
+var riyalRate = 28;
+var PKR = dollar * dollarRate + riyal * riyalRate;
+document.write("<br/><h1>Currency in PKR</h1>");
+document.write("<br/>Total currency in PKR : ",PKR);
+
+      //Task#11
+var num = 10;
+num += 5;
+num *= 10;
+num /= 2;
+alert(num);       
+
+    //Task#12
+var currentYear = +prompt("Enter current year");
+var birthYear = +prompt("Enter Birth year");
+var age = currentYear - birthYear;
+document.write("<br/><h1>The Age Calculator</h1>");
+document.write("<br/>Current Year : ",currentYear);
+document.write("<br/>Birth Year : ",birthYear);
+document.write("<br/><br/>You are either "+age+" or "+ ++age +" years old");
+
+      //Task#13
+
+var radious = 6;
+var pai = 3.142;
+var circumference = 2 * pai * radious;
+var area = pai * (radious * radious);
+document.write("<h1>The Geometrizer</h1>");
+document.write("<br/>Radius of a circle : ",radious);
+document.write("<br/>The circumference is : ",circumference);
+document.write("<br/>The area is : ",area);
+
+
+       //Task#14
+
+var count = 5;
+document.write("<br/>The value of count is ",count);
+document.write("<br/><br/>The value of ++count is ",++count);
+document.write("<br/>Now the value of count is ",count);
+document.write("<br/><br/>The value of count++ is ",count++);
+document.write("<br/>Now the value of count is ",count);
+document.write("<br/><br/>The value of --count is ",--count);
+document.write("<br/>Now the value of count is ",count);
+document.write("<br/><br/>The value of count-- is ",count--);
+document.write("<br/>Now the value of count is ",count);
+
+         //Task#15
+
+var a = 2;
+var b = 1;
+var result = --a - --b + ++b + b--;
+document.write("<br/>Value of --a : 1 ");
+document.write("<br/>Value of --a - --b : 1 ");
+document.write("<br/>Value of --a - --b + ++b : 2 ");
+document.write("<br/>Value of --a - --b + ++b + b-- : 4 ");
+document.write("<br/>Result is : ",result);         
+
+          //Task#16
+
+ var snacks = prompt("Enter your favorite Snacks");
+ var currentAge = +prompt("Enter your Current Age");
+ var maxAge = +prompt("Enter your Estimated maximum Age");
+ var snacksCount = +prompt("Enter Amount Of Snacks per Day");
+ var month = (maxAge - currentAge) * 12;
+ var totalSnacks = month * 60;
+ document.write("You will need "+totalSnacks+ " "+snacks+"snacks to last you until the ripe old age of "+maxAge);         
